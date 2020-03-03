@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    
+    <title>PANDORA PROJECT</title>
+</head>
+
+<body>
+    <div class="web">
+        <div class="header">
+            <div class="nav">
+                <i class="fas fa-bars"></i>  
+                <ul>
+                    <li> <a href="index.html">צ'ארמס</a></li>
+                    <li> <a href="index.html">צמידים</a></li>
+                    <li> <a href="index.html">טבעות</a></li>
+                    <li> <a href="index.html">עגילים</a></li>
+                    <li> <a href="index.html">שרשראות ותליונים</a></a></li>
+                    <li> <a href="index.html">כל הקולקציה</a></li>
+                    <li> <a href="index.html">GIFT CARD</a></li>
+                    <li> <a href="index.html">SALE</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+            <h2>PANDORA WEB</h2>
+        </div>
+        </div>
+
+        <section1>
+            <div class="content1">
+                <div class="jewerly">
+                    <h2>ברוכים הבאים<br>לאתר של פנדורה </h2>
+                    
+                     <p>מותג התכשיטים שנוסד בדנמרק ב-1982 ומאז הוא נחשב לאחד ממותגי התכשיטים האהובים בעולם. מגוון עיצובים יפיפיים של תכשיטי כסף כמו: טבעות, עגילים, שרשראות, צמידים וצ'ארמס בעבודות צורפות ושיבוץ מדויקות, מחומרי גלם איכותיים כמו כסף סטרלינג,Pandora רוז, Pandora Shine (כסף סטרלינג בציפוי זהב K18) ושיבוצי זרקונים וקריסטלים במגוון צבעים
+                    </p>
+                
+                </div>
+            </div>
+        </section1>
+        <section2>
+            <div class="products">
+                <div class="upper-image">
+                    <img src="/Photo1.jpg">
+                    <p>צמידי בנגל, כסף וטניס</p>
+                    <a href="#" id="button" class="button">הזמן</a>
+                                          
+                </div>
+                <div class="upper-image">
+                    <img src="/Photo2.jpg">
+                    <p>צ'ארמס, קליפסים ותליונים בעיצובים</p>
+                    <a href="#" id="button1" class="button1">הזמן</a>
+                </div>
+                <div class="upper-image">
+                    <img src="/Photo3.jpg">
+                    <p>טבעות כסף וזהב</p>
+                    <a href="#" id="button2" class="button2">הזמן</a>
+                </div>
+                <div class="bottom-image">
+                    <img src="/Photo4.jpg">
+                    <p>שרשראות ותליונים</p>
+                    <a href="#" id="button3" class="button3">הזמן</a>
+                </div>
+                <div class="bottom-image">
+                    <img src="/Photo5.jpg">
+                    <p>עגילי כסף וזהב</p>
+                    <a href="#" id="button4" class="button4">הזמן</a>
+                </div>
+                <div class="bottom-image" >
+                    <h3>עבור לכל הקולקציה..</h3>
+                </div>
+            </div>
+
+    </section2>
+
+        <section3>
+            <div class="form">
+                <form action="/index.html">
+                    <h3 class="contact">צור קשר</h3>
+                    <div class="inputs">
+                    <input type="text" placeholder="שם מלא">
+                    <input type="text" placeholder="טלפון">
+                    <input type="email" placeholder="אימייל">
+                    <input type="text" placeholder="עיר">
+                    <input class="submit-btn" type="submit" value="שליחה">
+                    </div>
+                </form>
+                    
+            </div>
+        </section3>
+        <div class="footer">
+           
+               <p>Powered by Noa</p>
+               
+           
+        </div>>
+
+<div class="bg-modal">
+    <div class="modal-content">
+        <div class="close">+</div>
+        <p>תיכנס לאתר והזמן!</p>
+        <form action="">
+            <div class="inputPopUp">
+            <input type="text" placeholder='אימייל'>
+            <input type="text" placeholder='סיסמא'>
+            <a href=""class="button">התחברות</a>
+            </div>
+        </form>
+    </div>
+</div>
+    </div>
+
+</body>
+
+</html>
+<script>
+document.getElementById('button').addEventListener('click',
+function(){
+    document.querySelector('.bg-modal').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click',
+function(){
+    document.querySelector('.bg-modal').style.display = 'none';
+});
+</script>
+<script>
+    document.getElementById('button1').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'flex';
+    });
+    
+    document.querySelector('.close').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'none';
+    });
+    </script>
+    <script>
+        document.getElementById('button1').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'flex';
+        });
+        
+        document.querySelector('.close').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'none';
+        });
+        </script>
+        <script>
+    document.getElementById('button2').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'flex';
+    });
+    
+    document.querySelector('.close').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display = 'none';
+    });
+    </script>
+    <script>
+        document.getElementById('button3').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'flex';
+        });
+        
+        document.querySelector('.close').addEventListener('click',
+        function(){
+            document.querySelector('.bg-modal').style.display = 'none';
+        });
+        </script>
+        <script>
+            document.getElementById('button4').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display = 'flex';
+            });
+            
+            document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display = 'none';
+            });
+            </script>
